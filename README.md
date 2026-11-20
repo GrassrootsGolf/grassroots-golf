@@ -1,22 +1,18 @@
 # Grassroots Golf Co. Website
 
-Simple static site for Grassroots Golf Co.
+Static site for [grassrootsgolf.com.au](https://grassrootsgolf.com.au), hosted on GitHub Pages.
 
-## Files
-- `index.html` — main page
-- `styles.css` — styling
+## Pages
+- `index.html` — Home
+- `programs.html` — Programs (Guided Golf, Simulator & Practice, Personalised Coaching)
+- `about.html` — About, approach and FAQs
+- `book.html` — Booking and contact
+- `contact.html`, `who-we-help.html`, `our-approach.html` — redirects for older URL patterns
+- `styles.css`, `site.js`
 
-## How to publish on GitHub Pages (free)
-
-1. Go to the repository Settings → Pages.
-2. Under “Source”, select the main branch and `/ (root)`.
-3. Click Save.
-4. Your site will be live at `https://grassrootsgolf.github.io/grassroots-golf/` within a minute or two.
-
-## Updating later
-- Edit the files and push changes.
-- The site updates automatically after you push.
+Hash links from the previous single-page site (`#about`, `#programs`, `#book`, `#contact`) redirect to the new pages.
 
 ## Notes
-- Booking form link and contact details can be added later.
-- Logo can be added by placing an image file in the same folder and referencing it in the HTML.
+- Do not merge or deploy this refresh until Timothy approves publication.
+- The CNAME file (`grassrootsgolf.com.au`) must stay unchanged.
+- Logo file: `Grassroots_Golf_LinkedIn_Logo_600x600.png`. Derived header mark, lockup and favicons are created from that file.
