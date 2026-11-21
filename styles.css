@@ -1,8 +1,11 @@
 /* Grassroots Golf Co. — A31 refresh
-   Palette: cream #FAF9F5, forest green #063B2C, gold #D5AB52, black #111 */
+   Hierarchy: cream #FAF9F5 background; black #0B0B0B banners;
+   green #063B2C secondary; gold #D5AB52 accent; body text #111 */
 :root {
   --cream: #FAF9F5;
   --cream-soft: #F1EEE6;
+  --ink: #0B0B0B;
+  --ink-soft: #161616;
   --green: #063B2C;
   --green-shade: #04281E;
   --gold: #D5AB52;
@@ -11,7 +14,7 @@
   --black-muted: #333333;
   --text: #111111;
   --header-h: 4.5rem;
-  --shadow: 0 12px 40px rgba(6, 59, 44, 0.08);
+  --shadow: 0 12px 40px rgba(11, 11, 11, 0.08);
   --radius: 1.1rem;
   --max: 70rem;
   --font-body: "Source Sans 3", "Segoe UI", sans-serif;
@@ -81,7 +84,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--green);
+  background: var(--ink);
   border-bottom: 2px solid var(--gold);
 }
 
@@ -464,7 +467,7 @@ a:hover {
 
 /* Learn / Understand / Enjoy band */
 .framework {
-  background: var(--green);
+  background: var(--ink);
   color: var(--cream);
   padding: 4.5rem 0;
 }
@@ -719,7 +722,7 @@ a:hover {
 
 /* Footer */
 .site-footer {
-  background: var(--green);
+  background: var(--ink);
   color: var(--cream);
   padding: 3.25rem 0 1.75rem;
   margin-top: auto;
@@ -802,7 +805,7 @@ a:hover {
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--green-shade);
+    background: var(--ink-soft);
     border-bottom: 2px solid var(--gold);
     flex-direction: column;
     align-items: stretch;

@@ -16,3 +16,4 @@ Hash links from the previous single-page site (`#about`, `#programs`, `#book`, `
 - Do not merge or deploy this refresh until Timothy approves publication.
 - The CNAME file (`grassrootsgolf.com.au`) must stay unchanged.
 - Logo file: `Grassroots_Golf_LinkedIn_Logo_600x600.png`. Derived header mark, lockup and favicons are created from that file.
+- Colour hierarchy: black `#0B0B0B` banners, green `#063B2C` secondary, gold `#D5AB52` accent, cream `#FAF9F5` background.
