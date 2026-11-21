@@ -339,42 +339,26 @@ a:hover {
   color: var(--black);
 }
 
-/* Photo placeholder */
-.hero-placeholder {
+/* Hero logo panel */
+.hero-brand {
   margin: 0;
   min-height: 22rem;
   height: 100%;
   border-radius: var(--radius);
-  background:
-    linear-gradient(160deg, rgba(6, 59, 44, 0.08), rgba(213, 171, 82, 0.12)),
-    var(--cream-soft);
-  border: 1px dashed rgba(213, 171, 82, 0.85);
+  background: #171616; /* matches the official logo's black */
+  border: 1px solid rgba(213, 171, 82, 0.55);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding: 2.5rem 1.75rem;
+  overflow: hidden;
   box-shadow: var(--shadow);
 }
 
-.hero-placeholder img {
-  width: 7.5rem;
-  height: 7.5rem;
+.hero-brand img {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  margin-bottom: 1.25rem;
-  filter: none;
-  opacity: 0.92;
-}
-
-.hero-placeholder .eyebrow {
-  color: var(--green);
-}
-
-.hero-placeholder p {
-  max-width: 22rem;
-  color: var(--black-muted);
-  font-size: 1rem;
+  object-position: center;
 }
 
 /* Offer cards */
@@ -841,7 +825,7 @@ a:hover {
     padding: 2.75rem 0 3rem;
   }
 
-  .hero-placeholder {
+  .hero-brand {
     min-height: 16rem;
   }
 
