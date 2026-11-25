@@ -3,91 +3,187 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grassroots Golf Co. | Helping Beginners Become Golfers</title>
+  <title>Grassroots Golf Co. — Helping beginners become golfers</title>
   <meta name="description" content="Learn about the game and yourself, put that into practice and feel confident enjoying golf anywhere.">
+  <link rel="icon" href="Grassroots_Golf_LinkedIn_Logo_600x600.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles-v2.css">
+  
 </head>
 <body>
-  <header>
-    <nav aria-label="Primary">
-      <div class="logo"><img src="Grassroots_Golf_LinkedIn_Logo_600x600.png" alt="Grassroots Golf Co." width="48" height="48"></div>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/programs.html">Programs</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/golf-things.html">Golf Things</a></li>
-        <li><a href="/book.html">Book</a></li>
-      </ul>
-    </nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img src="Grassroots_Golf_LinkedIn_Logo_600x600.png" alt="" width="48" height="48">
+        <span>Grassroots Golf Co.</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="golf-things.html">Golf Things</a></li>
+          <li><a href="book.html">Book</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
-      <p class="eyebrow">Grassroots Golf Co.</p>
-      <h1>Helping beginners become golfers.</h1>
-      <p>Most golfers are taught how to swing. Very few are taught how to play golf.</p>
-      <p>Grassroots helps you learn about the game and yourself, put that into practice and feel confident enjoying golf anywhere.</p>
-      <a href="/book.html" class="btn primary">Find your starting point</a>
-      <a href="/about.html" class="btn secondary">How Grassroots works</a>
-    </section>
-
-    <section class="philosophy">
-      <h2>Learn. Understand. Enjoy.</h2>
-      <p>Golf is more than learning to swing. Learn about the game and about yourself. Then put that into practice so it starts to make sense. And enjoy piecing it all together.</p>
-      <div class="cards">
-        <div class="card"><h3>Learn</h3><p>Golf is more than the swing. It’s also knowing the game, making decisions and handling how you feel out there.</p></div>
-        <div class="card"><h3>Understand</h3><p>Knowing something isn’t the same as being able to use it. Learn how and when to put it to work.</p></div>
-        <div class="card"><h3>Enjoy</h3><p>Golf never goes to plan, and that’s okay. Stay curious, make smarter choices and enjoy the progress, not just the score.</p></div>
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Grassroots Golf Co.</p>
+          <h1>Helping beginners become golfers.</h1>
+          <p class="lede">Most golfers are taught how to swing. Very few are taught how to play golf.</p>
+          <p>Grassroots helps you learn about the game and yourself, put that into practice and feel confident enjoying golf anywhere.</p>
+          <a href="book.html" class="btn primary">Find your starting point</a>
+          <a href="about.html" class="btn secondary">How Grassroots works</a>
+        </div>
+        <figure class="hero-photo">
+          <img src="photos/hero-fairway.jpg" width="1320" height="991" alt="A golfer mid-swing on a tree-lined fairway under a clear sky.">
+        </figure>
       </div>
-      <a href="/about.html" class="btn">See how it works</a>
     </section>
 
-    <section>
-      <h2>It’s not complicated. It’s just rarely taught.</h2>
-      <p>Becoming a golfer isn’t about a perfect swing. It’s knowing how to get around the course, choose your shots, set fair expectations and still enjoy it when things don’t go to plan.</p>
-      <p>We believe a golfer is someone who can confidently enjoy golf anywhere.</p>
-      <a href="/about.html" class="btn">Our story and approach</a>
+    <section class="band">
+      <div class="wrap">
+        <h2>Learn. Understand. Enjoy.</h2>
+        <p>Golf is more than learning to swing. Learn about the game and about yourself. Then put that into practice so it starts to make sense. And enjoy piecing it all together.</p>
+        <div class="cards">
+          <div class="card">
+            <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 6.2c-1.6-1-3.7-1.5-5.8-1.5-1.1 0-2 .2-2.7.4v11.4c.8-.3 1.7-.4 2.7-.4 2.1 0 4.2.5 5.8 1.5 1.6-1 3.7-1.5 5.8-1.5 1 0 1.9.1 2.7.4V5.1c-.8-.2-1.7-.4-2.7-.4-2.1 0-4.2.5-5.8 1.5z"/>
+  <path d="M12 6.2v11.4"/>
+</svg>
+            <h3>Learn</h3>
+            <p>Golf is more than the swing. It’s also knowing the game, making decisions and handling how you feel out there.</p>
+          </div>
+          <div class="card">
+            <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.6 12s3.2-5.4 8.4-5.4S20.4 12 20.4 12s-3.2 5.4-8.4 5.4S3.6 12 3.6 12z"/>
+  <circle cx="12" cy="12" r="2.35"/>
+</svg>
+            <h3>Understand</h3>
+            <p>Knowing something isn’t the same as being able to use it. Learn how and when to put it to work.</p>
+          </div>
+          <div class="card">
+            <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5v11.2"/>
+  <path d="M12 5.4s3.1 0 4.6 1.7c.7.8.9 1.9.2 2.4-.7.5-1.7-.1-2.2-1.1"/>
+  <path d="M8.2 20.4h7.6c.7 0 1.2-.5 1.2-1.2 0-2.3-2-4.2-4.5-4.2h-.6c-2.5 0-4.5 1.9-4.5 4.2 0 .7.5 1.2 1.2 1.2z"/>
+</svg>
+            <h3>Enjoy</h3>
+            <p>Golf never goes to plan, and that’s okay. Stay curious, make smarter choices and enjoy the progress, not just the score.</p>
+          </div>
+        </div>
+        <a href="about.html" class="btn secondary">See how it works</a>
+      </div>
     </section>
 
-    <section>
-      <p class="eyebrow">The Golf Things Nobody Tells You</p>
-      <h2>Everyone expects you to know them. Nobody actually explains them.</h2>
-      <p>Where should you stand? Why are golfers carrying sand? Which tees should you use? What does a handicap actually mean? Why isn’t the flag always the target?</p>
-      <p>Nobody’s born knowing this stuff. Let’s make it easier.</p>
-      <a href="/golf-things.html" class="btn">See 10 things worth knowing</a>
+    <section class="section">
+      <div class="wrap">
+        <h2>It’s not complicated. It’s just rarely taught.</h2>
+        <p>Becoming a golfer isn’t about a perfect swing. It’s knowing how to get around the course, choose your shots, set fair expectations and still enjoy it when things don’t go to plan.</p>
+        <p>We believe a golfer is someone who can confidently enjoy golf anywhere.</p>
+        <a href="about.html" class="btn secondary">Our story and approach</a>
+      </div>
     </section>
 
-    <section>
-      <h2>Start where you are.</h2>
-      <p>You don’t need to work out your own golf or pick the perfect program. Start with the description that sounds most like you, or tell us where you’re at and we’ll suggest a good first step.</p>
-      <a href="/programs.html" class="btn primary">View programs</a>
-      <a href="/book.html" class="btn secondary">Find your starting point</a>
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <p class="eyebrow">The Golf Things Nobody Tells You</p>
+        <h2>Everyone expects you to know them. Nobody actually explains them.</h2>
+        <p>Where should you stand? Why are golfers carrying sand? Which tees should you use? What does a handicap actually mean? Why isn’t the flag always the target?</p>
+        <p>Nobody’s born knowing this stuff. Let’s make it easier.</p>
+        <a href="golf-things.html" class="btn primary">See 10 things worth knowing</a>
+      </div>
     </section>
 
-    <section>
-      <h2>Why Grassroots exists</h2>
-      <p>Our founder grew up playing golf through juniors, cadets and lessons with PGA professionals, learning plenty about technique but still seeing the same gap: learning to swing isn’t the same as learning to play, score, understand and enjoy golf.</p>
-      <a href="/about.html" class="btn">Meet Tim and read the story</a>
+    <section class="section">
+      <div class="wrap split">
+        <figure>
+          <img src="photos/on-course.jpg" width="900" height="1200" alt="A family walking together across a golf course on a sunny day.">
+        </figure>
+        <div>
+          <h2>Start where you are.</h2>
+          <p>You don’t need to work out your own golf or pick the perfect program. Start with the description that sounds most like you, or tell us where you’re at and we’ll suggest a good first step.</p>
+          <a href="programs.html" class="btn primary">View programs</a>
+          <a href="book.html" class="btn secondary">Find your starting point</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Why Grassroots exists</h2>
+        <p>Our founder grew up playing golf through juniors, cadets and lessons with PGA professionals, learning plenty about technique but still seeing the same gap: learning to swing isn’t the same as learning to play, score, understand and enjoy golf.</p>
+        <a href="about.html" class="btn secondary">Meet Tim and read the story</a>
+      </div>
     </section>
 
     <section class="cta">
-      <h2>Let’s find your starting point.</h2>
-      <p>Tell us a bit about your golf, what you’ve done so far and what you’d like to be able to do. We’ll suggest a good first step.</p>
-      <a href="/book.html" class="btn primary">Get in touch</a>
+      <div class="wrap">
+        <h2>Let’s find your starting point.</h2>
+        <p>Tell us a bit about your golf, what you’ve done so far and what you’d like to be able to do. We’ll suggest a good first step.</p>
+        <a href="book.html" class="btn primary">Get in touch</a>
+      </div>
     </section>
   </main>
-
-  <footer>
-    <p>Grassroots Golf Co. — Learn. Understand. Enjoy.</p>
-    <p>Helping beginners become golfers.</p>
-    <ul>
-      <li><a href="/programs.html">Programs</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/golf-things.html">Golf Things</a></li>
-      <li><a href="/book.html">Book</a></li>
-    </ul>
-    <p>Phone: <a href="tel:0404706762">0404 706 762</a> | Email: <a href="mailto:grassrootsgolfau@gmail.com">grassrootsgolfau@gmail.com</a></p>
-    <p><a href="https://www.instagram.com/GrassrootsGolfCo" target="_blank">Instagram</a> | <a href="https://www.facebook.com/profile.php?id=61594531462794" target="_blank">Facebook</a> | <a href="https://www.mytpi.com/experts/775845" target="_blank">TPI</a></p>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="tagline">Grassroots Golf Co. — Learn. Understand. Enjoy.</p>
+        <p>Helping beginners become golfers.</p>
+      </div>
+      <div>
+        <p class="footer-label">Visit</p>
+        <div class="contact-list">
+          <p>Golf Paradise<br>186 Mona Vale Road<br>St Ives NSW 2075</p>
+          <p><a href="tel:+61404706762">0404 706 762</a></p>
+          <p><a href="mailto:grassrootsgolfau@gmail.com">grassrootsgolfau@gmail.com</a></p>
+        </div>
+      </div>
+      <div>
+        <p class="footer-label">Follow</p>
+        <div class="social">
+          <a href="https://www.instagram.com/grassrootsgolfco/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect x="2" y="2" width="20" height="20" rx="5.5" fill="currentColor"/>
+  <circle cx="12" cy="12" r="4.15" fill="none" stroke="var(--icon-fg, #FAF9F5)" stroke-width="1.7"/>
+  <circle cx="16.55" cy="7.45" r="1.05" fill="var(--icon-fg, #FAF9F5)"/>
+</svg> Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61594531462794" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <circle cx="12" cy="12" r="10" fill="currentColor"/>
+  <path d="M13.35 19.2v-6.35h2.13l.32-2.47h-2.45V8.82c0-.72.2-1.2 1.23-1.2h1.31V5.4c-.23-.03-1.01-.1-1.92-.1-1.9 0-3.2 1.16-3.2 3.28v1.8H8.7v2.47h2.07V19.2h2.58z" fill="var(--icon-fg, #FAF9F5)"/>
+</svg> Facebook</a>
+          <a href="https://www.linkedin.com/company/grasroots-golf-co" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect x="2" y="2" width="20" height="20" rx="3.2" fill="currentColor"/>
+  <path d="M7.15 10.05h2.05v7.2H7.15v-7.2zm1.02-3.25c.7 0 1.27.55 1.27 1.24 0 .7-.57 1.26-1.27 1.26-.72 0-1.28-.56-1.28-1.26 0-.69.56-1.24 1.28-1.24zM11.1 10.05h1.97v.98h.03c.27-.52.95-1.07 1.95-1.07 2.09 0 2.47 1.38 2.47 3.17v4.12h-2.05v-3.65c0-.87-.31-1.46-1.09-1.46-.6 0-.95.4-1.11.79-.05.14-.07.33-.07.52v3.8H11.1v-7.2z" fill="var(--icon-fg, #FAF9F5)"/>
+</svg> LinkedIn</a>
+          <a href="https://www.mytpi.com/experts/775845" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M6.2 5.4h11.6v2.55h-4.52V18.6h-2.56V7.95H6.2V5.4z" fill="currentColor"/>
+</svg> TPI</a>
+        </div>
+        <p class="footer-label" style="margin-top:1.1rem">Explore</p>
+        <ul>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="golf-things.html">Golf Things</a></li>
+          <li><a href="book.html">Book</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>Grassroots Golf Co. — Learn. Understand. Enjoy.</p>
+      <p>Based at Golf Paradise, St Ives.</p>
+    </div>
   </footer>
+  <script src="site.js"></script>
 </body>
 </html>

@@ -5,90 +5,214 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Golf Programs and Guided Golf | Grassroots Golf Co.</title>
   <meta name="description" content="Find a good starting point for learning, understanding and enjoying golf in Sydney.">
+  <link rel="icon" href="Grassroots_Golf_LinkedIn_Logo_600x600.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles-v2.css">
+  
 </head>
 <body>
-  <header>
-    <nav aria-label="Primary">
-      <div class="logo"><img src="Grassroots_Golf_LinkedIn_Logo_600x600.png" alt="Grassroots Golf Co." width="48" height="48"></div>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/programs.html">Programs</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/golf-things.html">Golf Things</a></li>
-        <li><a href="/book.html">Book</a></li>
-      </ul>
-    </nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img src="Grassroots_Golf_LinkedIn_Logo_600x600.png" alt="" width="48" height="48">
+        <span>Grassroots Golf Co.</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html" aria-current="page">Programs</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="golf-things.html">Golf Things</a></li>
+          <li><a href="book.html">Book</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h1>Start where you are.</h1>
-      <p>A practical pathway from learning golf to playing independently.</p>
-      <p>You don’t need to wait until your swing feels good enough. Pick the description that sounds most like you, or get in touch and we’ll help you find a good first step.</p>
-      <a href="/book.html" class="btn primary">Find your starting point</a>
+  <main id="main">
+    <section class="section">
+      <div class="wrap">
+        <h1>Start where you are.</h1>
+        <p>A practical pathway from learning golf to playing independently.</p>
+        <p>You don’t need to wait until your swing feels good enough. Pick the description that sounds most like you, or get in touch and we’ll help you find a good first step.</p>
+        <p>
+          <a href="#beginner-to-golfer">Beginner-to-Golfer</a> ·
+          <a href="#guided-golf">Guided Golf</a> ·
+          <a href="#understand-your-game">Understand Your Game</a> ·
+          <a href="#golf-quest">Golf Quest</a> ·
+          <a href="#private">Private sessions</a>
+        </p>
+        <a href="book.html" class="btn primary">Find your starting point</a>
+      </div>
     </section>
 
-    <section>
-      <p class="eyebrow">I want to learn golf properly.</p>
-      <h2>Beginner-to-Golfer</h2>
-      <p>The overarching program. Learn the basics of the game, not just the swing. Build practical knowledge, simple skills and confidence so you can get out and start playing on your own. Internal levels take you through wherever you are.</p>
-      <p>Guided Golf sits inside this as a practical entry point and one-off option.</p>
-      <a href="/book.html" class="btn">Ask about this program</a>
+    <section class="section" style="padding-top:0" id="beginner-to-golfer">
+      <div class="wrap">
+        <article class="program">
+          <p class="eyebrow">I want to learn golf properly.</p>
+          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 6.2c-1.6-1-3.7-1.5-5.8-1.5-1.1 0-2 .2-2.7.4v11.4c.8-.3 1.7-.4 2.7-.4 2.1 0 4.2.5 5.8 1.5 1.6-1 3.7-1.5 5.8-1.5 1 0 1.9.1 2.7.4V5.1c-.8-.2-1.7-.4-2.7-.4-2.1 0-4.2.5-5.8 1.5z"/>
+  <path d="M12 6.2v11.4"/>
+</svg>
+          <h2>Beginner-to-Golfer</h2>
+          <p>The overarching program. Learn the basics of the game, not just the swing. Build practical knowledge, simple skills and confidence so you can get out and start playing on your own. Internal levels take you through wherever you are.</p>
+          <p>Guided Golf sits inside this as a practical entry point and one-off option.</p>
+          <p class="price">2 hours. Pricing on request.</p>
+          <a href="book.html" class="btn secondary">Ask about this program</a>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <p class="eyebrow">I can hit a ball. I want help actually playing.</p>
-      <h2>Guided Golf</h2>
-      <p>Take your golf onto a real course with someone beside you. We’ll help with real shots, choices and situations, plus how a round flows, pace, safety, etiquette, where to aim and what to do when a shot doesn’t go to plan.</p>
-      <p><strong>2026 introductory:</strong> $30 + green fee (groups of 3–4). Considering $70 flat for 2026, then $90 flat including a drink in 2027.</p>
-      <a href="/book.html" class="btn">Ask about Guided Golf</a>
+    <section class="section" style="padding-top:0" id="guided-golf">
+      <div class="wrap split">
+        <div>
+          <article class="program" style="margin:0;box-shadow:none;padding:0;background:transparent">
+            <p class="eyebrow">I can hit a ball. I want help actually playing.</p>
+            <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7.5 4.2v13.2"/>
+  <path d="M7.5 4.2l9.2 3.2-9.2 2.6"/>
+  <path d="M5.2 20.3c.7-1.1 2-1.8 3.5-1.8s2.8.7 3.5 1.8"/>
+</svg>
+            <h2>Guided Golf</h2>
+            <p>Take your golf onto a real course with someone beside you. We’ll help with real shots, choices and situations, plus how a round flows, pace, safety, etiquette, where to aim and what to do when a shot doesn’t go to plan.</p>
+            <p class="price">Group Guided Golf: $70 per person, green fee included. 2 hours, groups of 3–4.</p>
+            <a href="book.html" class="btn primary">Ask about Guided Golf</a>
+          </article>
+        </div>
+        <figure>
+          <img src="photos/hero-fairway.jpg" width="1320" height="991" alt="A golfer playing a shot on a tree-lined fairway.">
+        </figure>
+      </div>
     </section>
 
-    <section>
-      <p class="eyebrow">I already play. I want to understand my golf better.</p>
-      <h2>Understand Your Game</h2>
-      <p>Get to know your tendencies, decisions and expectations, and what matters most for your game. Rather than chasing another swing fix, we’ll connect your technique to you and the situation.</p>
-      <a href="/book.html" class="btn">Ask about this program</a>
+    <section class="section" style="padding-top:0" id="understand-your-game">
+      <div class="wrap">
+        <article class="program">
+          <p class="eyebrow">I already play. I want to understand my golf better.</p>
+          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.6 12s3.2-5.4 8.4-5.4S20.4 12 20.4 12s-3.2 5.4-8.4 5.4S3.6 12 3.6 12z"/>
+  <circle cx="12" cy="12" r="2.35"/>
+</svg>
+          <h2>Understand Your Game</h2>
+          <p>Get to know your tendencies, decisions and expectations, and what matters most for your game. Rather than chasing another swing fix, we’ll connect your technique to you and the situation.</p>
+          <p class="price">2 hours. Pricing on request.</p>
+          <a href="book.html" class="btn secondary">Ask about this program</a>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <p class="eyebrow">Golf for children through play.</p>
-      <h2>Golf Quest</h2>
-      <p>Kids golf arcade. Targets to knock down. Points to chase. Personal bests to beat.</p>
-      <p>Kids think they’re playing games. We’re building confidence, coordination and a love of sport.</p>
-      <ul>
-        <li>All primary ages</li>
-        <li>6–10 kids</li>
-        <li>2-hour sessions</li>
-        <li>Weekly during term</li>
-        <li>No experience needed</li>
-      </ul>
-      <p>One rule: have fun safely. Kids get to whack balls in a space that is all their own, while friends cheer them on from designated non-hitting areas. Age-appropriate equipment. Small groups. Clear zones. Supervised sessions.</p>
-      <p>Every child receives their own Golf Quest Scorecard to track scores, celebrate achievements, earn stars and chase a new personal best every week.</p>
-      <p>We supply the equipment and set up the activities. Runs on an oval, hall or covered area (subject to site assessment). WWCC, insurance and documentation available.</p>
-      <p>Certified &amp; qualified: MyGolf | Get Into Golf | TPI Level 1.</p>
-      <a href="/book.html" class="btn">Ask about Golf Quest</a>
+    <section class="section" style="padding-top:0" id="golf-quest">
+      <div class="wrap split">
+        <figure>
+          <img src="photos/golf-quest.jpg" width="903" height="1200" alt="A child practising golf in a backyard, hitting towards a practice net set up as a game.">
+        </figure>
+        <div>
+          <p class="eyebrow">Golf for children through play.</p>
+          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5v11.2"/>
+  <path d="M12 5.4s3.1 0 4.6 1.7c.7.8.9 1.9.2 2.4-.7.5-1.7-.1-2.2-1.1"/>
+  <path d="M8.2 20.4h7.6c.7 0 1.2-.5 1.2-1.2 0-2.3-2-4.2-4.5-4.2h-.6c-2.5 0-4.5 1.9-4.5 4.2 0 .7.5 1.2 1.2 1.2z"/>
+</svg>
+          <h2>Golf Quest</h2>
+          <p>Kids golf arcade. Targets to knock down. Points to chase. Personal bests to beat.</p>
+          <p>Kids think they’re playing games. We’re building confidence, coordination and a love of sport.</p>
+          <ul>
+            <li>All primary ages</li>
+            <li>6–10 kids</li>
+            <li>2-hour sessions</li>
+            <li>Weekly during term</li>
+            <li>No experience needed</li>
+          </ul>
+          <p>One rule: have fun safely. Kids get to whack balls in a space that is all their own, while friends cheer them on from designated non-hitting areas. Age-appropriate equipment. Small groups. Clear zones. Supervised sessions.</p>
+          <p>Every child receives their own Golf Quest Scorecard to track scores, celebrate achievements, earn stars and chase a new personal best every week.</p>
+          <p>We supply the equipment and set up the activities. Runs on an oval, hall or covered area (subject to site assessment). WWCC and documentation available.</p>
+          <p>Certified &amp; qualified: MyGolf | Get Into Golf | TPI Level 1.</p>
+          <p class="price">2 hours. Pricing on request.</p>
+          <a href="book.html" class="btn secondary">Ask about Golf Quest</a>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>How Grassroots can work with you</h2>
-      <p>Different golfers need different places to learn. Depending on where you’re at, sessions might be on a simulator, practice area or golf course, one-on-one or in a small group. We also bring golf to you: home, backyard, workplace, community or events.</p>
-      <p>We’ll recommend what suits you best.</p>
-      <h3>2026 introductory pricing (private)</h3>
-      <ul>
-        <li>Private Junior: $120</li>
-        <li>Private Guided Golf: $150 (normally $200) — 2 hours one-on-one on-course + your green fees</li>
-        <li>Private Simulator Session: $160 (normally $220) — 2 hours one-on-one + simulator hire at St Ives (+$40 per extra person)</li>
-        <li>TPI-Integrated Private Golf Development: $180 (normally $300) — 2-hour private simulator + TPI screening + personalised development plan</li>
-      </ul>
-      <a href="/book.html" class="btn primary">Find your starting point</a>
+    <section class="section" style="padding-top:0" id="private">
+      <div class="wrap split">
+        <div>
+          <svg class="card-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="8" r="2.6"/>
+  <path d="M6.8 19.2c.4-3.1 2.5-4.8 5.2-4.8s4.8 1.7 5.2 4.8"/>
+  <path d="M17.4 6.4l2.8.9-2.2 2.3"/>
+</svg>
+          <h2>How Grassroots can work with you</h2>
+          <p>Different golfers need different places to learn. Depending on where you’re at, sessions might be on a simulator, practice area or golf course, one-on-one or in a small group. We also bring golf to you: home, backyard, workplace, community or events.</p>
+          <p>We’ll recommend what suits you best.</p>
+          <h3>Private sessions</h3>
+          <ul>
+            <li>Private Junior: $120 — 2 hours</li>
+            <li>Private Guided Golf: $150 (normally $200) — 2 hours one-on-one on-course + your green fees</li>
+            <li>Private Simulator Session: $160 (normally $220) — 2 hours one-on-one + simulator hire at St Ives (+$40 per extra person)</li>
+            <li>TPI-Integrated Private Golf Development: $180 (normally $300) — 2-hour private simulator + TPI screening + personalised development plan</li>
+          </ul>
+          <a href="book.html" class="btn primary">Find your starting point</a>
+        </div>
+        <figure>
+          <img src="photos/junior-practice.jpg" width="903" height="1200" alt="An adult helping a young child practise a golf swing on a hitting mat.">
+        </figure>
+      </div>
     </section>
   </main>
-
-  <footer>
-    <p>Grassroots Golf Co. — Learn. Understand. Enjoy.</p>
-    <p><a href="tel:0404706762">0404 706 762</a> | <a href="mailto:grassrootsgolfau@gmail.com">grassrootsgolfau@gmail.com</a></p>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="tagline">Grassroots Golf Co. — Learn. Understand. Enjoy.</p>
+        <p>Helping beginners become golfers.</p>
+      </div>
+      <div>
+        <p class="footer-label">Visit</p>
+        <div class="contact-list">
+          <p>Golf Paradise<br>186 Mona Vale Road<br>St Ives NSW 2075</p>
+          <p><a href="tel:+61404706762">0404 706 762</a></p>
+          <p><a href="mailto:grassrootsgolfau@gmail.com">grassrootsgolfau@gmail.com</a></p>
+        </div>
+      </div>
+      <div>
+        <p class="footer-label">Follow</p>
+        <div class="social">
+          <a href="https://www.instagram.com/grassrootsgolfco/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect x="2" y="2" width="20" height="20" rx="5.5" fill="currentColor"/>
+  <circle cx="12" cy="12" r="4.15" fill="none" stroke="var(--icon-fg, #FAF9F5)" stroke-width="1.7"/>
+  <circle cx="16.55" cy="7.45" r="1.05" fill="var(--icon-fg, #FAF9F5)"/>
+</svg> Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61594531462794" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <circle cx="12" cy="12" r="10" fill="currentColor"/>
+  <path d="M13.35 19.2v-6.35h2.13l.32-2.47h-2.45V8.82c0-.72.2-1.2 1.23-1.2h1.31V5.4c-.23-.03-1.01-.1-1.92-.1-1.9 0-3.2 1.16-3.2 3.28v1.8H8.7v2.47h2.07V19.2h2.58z" fill="var(--icon-fg, #FAF9F5)"/>
+</svg> Facebook</a>
+          <a href="https://www.linkedin.com/company/grasroots-golf-co" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect x="2" y="2" width="20" height="20" rx="3.2" fill="currentColor"/>
+  <path d="M7.15 10.05h2.05v7.2H7.15v-7.2zm1.02-3.25c.7 0 1.27.55 1.27 1.24 0 .7-.57 1.26-1.27 1.26-.72 0-1.28-.56-1.28-1.26 0-.69.56-1.24 1.28-1.24zM11.1 10.05h1.97v.98h.03c.27-.52.95-1.07 1.95-1.07 2.09 0 2.47 1.38 2.47 3.17v4.12h-2.05v-3.65c0-.87-.31-1.46-1.09-1.46-.6 0-.95.4-1.11.79-.05.14-.07.33-.07.52v3.8H11.1v-7.2z" fill="var(--icon-fg, #FAF9F5)"/>
+</svg> LinkedIn</a>
+          <a href="https://www.mytpi.com/experts/775845" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M6.2 5.4h11.6v2.55h-4.52V18.6h-2.56V7.95H6.2V5.4z" fill="currentColor"/>
+</svg> TPI</a>
+        </div>
+        <p class="footer-label" style="margin-top:1.1rem">Explore</p>
+        <ul>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="golf-things.html">Golf Things</a></li>
+          <li><a href="book.html">Book</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <p>Grassroots Golf Co. — Learn. Understand. Enjoy.</p>
+      <p>Based at Golf Paradise, St Ives.</p>
+    </div>
   </footer>
+  <script src="site.js"></script>
 </body>
 </html>
